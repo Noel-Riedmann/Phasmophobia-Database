@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhasmophobiaDatabase", "PhasmophobiaDatabase.csproj", "{10580E63-570D-4F21-913D-2E56D6FA0965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10580E63-570D-4F21-913D-2E56D6FA0965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10580E63-570D-4F21-913D-2E56D6FA0965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10580E63-570D-4F21-913D-2E56D6FA0965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10580E63-570D-4F21-913D-2E56D6FA0965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBC57126-FFDB-4C49-B74D-7AB07A09B1A9}
+	EndGlobalSection
+EndGlobal
