@@ -22,10 +22,11 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 var app = builder.Build();
 
 // Enable CORS
-app.UseCors(builder => builder.WithOrigins("http://localhost:4200")
+app.UseCors(builder => builder.WithOrigins("http://localhost:4200", "https://phasmophobia-journal-61482.firebaseapp.com")
                                 .AllowAnyMethod()
                                 .AllowAnyHeader()
                                 .AllowCredentials());
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
