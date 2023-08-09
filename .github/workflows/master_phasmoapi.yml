@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'PhasmoAPI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5432B43DA57F44C6B2280077C4BF8282 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4CD3DB890EDA4B59A23637DC64478AB8 }}
           package: .
