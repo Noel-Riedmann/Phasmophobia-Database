@@ -22,7 +22,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 var app = builder.Build();
 
 // Enable CORS
-app.UseCors(builder => builder.WithOrigins("http://localhost:4200", "https://phasmophobia-journal-61482.firebaseapp.com")
+app.UseCors(builder => builder.WithOrigins("http://localhost:4200", "https://phasmophobia-journal-61482.firebaseapp.com", "https://www.phasmophobia-journal.com", "https://phasmophobia-journal.com")
                                 .AllowAnyMethod()
                                 .AllowAnyHeader()
                                 .AllowCredentials());
